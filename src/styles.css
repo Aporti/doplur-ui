@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://use.typekit.net/goz7syp.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+  font-family: Rubik;
+  color: #1E1E24;
+  background-color: #1E1E24;
+}
+

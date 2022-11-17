@@ -1,0 +1,50 @@
+
+*{box-sizing: border-box;}
+
+
+.topnav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.topnav input[type=text]{
+  position: static;
+  padding: 6px;
+  margin-top: 10px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.searchContainer{
+  display: flex;
+  position: static;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav .searchContainer button{
+  position: static;
+  padding: 6px 10px;
+  margin-top: 10px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#mainLogo{
+  position: static;
+  float: left;
+  height: 136px;
+  width: 162px;
+}
+
+#mainProfilePic{
+  display: flex;
+  float: right;
+  height: 84px;
+  width: 84px;
+  border-radius: 50px;
+}

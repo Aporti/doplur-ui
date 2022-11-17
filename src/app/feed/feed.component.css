@@ -1,0 +1,45 @@
+
+
+.container{
+  font-size: 20px;
+  width: 812px;
+  padding: 30px;
+  background-color: #F3FCF0;
+  border-radius: 20px;
+}
+
+
+.fullPrimary{
+
+}
+
+.postPrimaryUsername{
+  display: inline-block;
+}
+
+.postPrimaryTime{
+  display: inline-block;
+}
+
+.postPrimaryComment{
+  display: inline-block;
+}
+.postPrimaryCommentSecondLine{
+  display: inline-block;
+}
+
+.fullSecondary{
+
+}
+
+.postSecondaryUsername{
+  display: inline-block;
+}
+
+.postSecondaryTime{
+  display: inline-block;
+}
+
+.postSecondaryComment{
+  display: inline-block;
+}

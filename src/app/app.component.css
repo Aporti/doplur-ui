@@ -1,0 +1,34 @@
+
+
+
+.container{
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 400px 812px 400px;
+  column-gap: 10px;
+}
+
+.appExplore{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.appPost{
+  margin-left: auto;
+  margin-right: auto;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.appPodcasts{
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.appFeed{
+  grid-column: 2;
+  grid-row: 2;
+}
+
